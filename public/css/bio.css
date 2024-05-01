@@ -1,0 +1,25 @@
+:root {
+    --font-title: 60px;
+    --font-title-second: 40px;
+    --font-title-second-mobile: 30px;
+    --font-txt: 17px;
+    --bg-red: #871910;
+}
+
+/* BIO */ 
+
+.main{
+    background: url('../img/bio.png');
+    background-position: center;
+    background-size: cover;
+    padding: 10vh 20px 20vh 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main_sub{
+    color: white;
+    font-size: var(--font-txt);
+}

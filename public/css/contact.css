@@ -1,0 +1,60 @@
+:root {
+    --font-title: 60px;
+    --font-title-second: 40px;
+    --font-title-second-mobile: 30px;
+    --font-txt: 17px;
+    --bg-red: #871910;
+}
+
+/* CONTACT */
+
+.main{
+  height: 100vh;
+  background: url('../img/vibes_tv\ page_contact.png');
+  background-size: cover;
+  background-position: center;
+  padding:20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10vw;
+  padding: 10vh 0 0 0;
+}
+
+
+.main_txt_email{
+  color: white;
+  text-decoration: underline;
+}
+
+.main_contact_wrapper{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10vw;
+  margin: 8vh 0 0 0;
+}
+
+.main_contact_wrapper_img{
+  width: 120px;
+}
+
+.main_contact_wrapper_link{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.main_txt{
+  color: white;
+  font-size: var(--font-txt);
+  text-align: center;
+  font-style: italic;
+}
+
+.main_contact_wrapper_sub{
+  color: white;
+}

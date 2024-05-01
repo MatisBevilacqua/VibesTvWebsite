@@ -1,0 +1,32 @@
+:root {
+    --font-title: 60px;
+    --font-title-second: 40px;
+    --font-title-second-mobile: 30px;
+    --font-txt: 17px;
+    --bg-red: #871910;
+}
+
+/* PROGRAMMES */ 
+
+.main{
+    background: url(../img/bg-all.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 20px 40px 20px;
+    gap: 20px;
+}
+
+.main_article_title{
+    color: #EA3323;
+}
+
+.main_article_sub{
+    color: white;
+}
+
+.ita{
+    font-style: italic;
+}
+
