@@ -10,16 +10,17 @@
 
 .main{
     background: url('../img/bio.png');
+    height: 100vh;
     background-position: center;
     background-size: cover;
     padding: 10vh 20px 20vh 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 20px;
 }
 
 .main_sub{
     color: white;
-    font-size: var(--font-txt);
+    font-size: 25px;
 }

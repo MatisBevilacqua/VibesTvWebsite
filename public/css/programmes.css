@@ -10,6 +10,7 @@
 
 .main{
     background: url(../img/bg-all.png);
+    height: 100vh;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -23,6 +24,7 @@
 }
 
 .main_article_sub{
+    font-size: 20px;
     color: white;
 }
 
