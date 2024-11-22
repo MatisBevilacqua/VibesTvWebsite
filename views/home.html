@@ -11,66 +11,55 @@
 </head>
 
 <body>
+  <div class="header_nav_mobile">
+    <ul class="header_nav_mobile_list">
+        <li class="header_nav_mobile_list_item"><a href="/"  class="header_nav_mobile_list_item_link">Acceuil</a></li>
+        <li class="header_nav_mobile_list_item"><a  href="https://player.infomaniak.com?channel=72318&player=11865"  class="header_nav_mobile_list_item_link">Direct</a></li>
+        <li class="header_nav_mobile_list_item"><a href="/bio" class="header_nav_mobile_list_item_link">Bio</a></li>
+        <li class="header_nav_mobile_list_item"><a  href="/programmes" class="header_nav_mobile_list_item_link">Programmes</a></li>
+        <li class="header_nav_mobile_list_item"><a  href="/retrouver" class="header_nav_mobile_list_item_link">Où nous retrouver ?</a></li>
+        <li class="header_nav_mobile_list_item"><a  href="/contact" class="header_nav_mobile_list_item_link">Contact</a></li>
+    </ul>
+</div>
 
-    <div class="header_nav_mobile">
-        <ul class="header_nav_mobile_list">
-            <li class="header_nav_mobile_list_item"><a href="/"  class="header_nav_mobile_list_item_link">Acceuil</a></li>
-            <li class="header_nav_mobile_list_item"><a  href="https://player.infomaniak.com?channel=72318&player=11865"  class="header_nav_mobile_list_item_link">Direct</a></li>
-            <li class="header_nav_mobile_list_item"><a href="/bio" class="header_nav_mobile_list_item_link">Bio</a></li>
-            <li class="header_nav_mobile_list_item"><a  href="/programmes" class="header_nav_mobile_list_item_link">Programmes</a></li>
-            <li class="header_nav_mobile_list_item"><a  href="/contact" class="header_nav_mobile_list_item_link">Contact</a></li>
+<header class="header">
+    <nav class="header_nav">
+        <ul class="header_nav_list">
+            <li class="header_nav_list_item"><a href="/" class="header_nav_list_item_link">Acceuil</a></li>
+            <li class="header_nav_list_item"><a href="https://player.infomaniak.com?channel=72318&player=11865" class="header_nav_list_item_link">Direct</a></li>
+            <li class="header_nav_list_item"><a href="/bio" class="header_nav_list_item_link">Bio</a></li>
+            <li class="header_nav_list_item"><a href="/programmes" class="header_nav_list_item_link">Programmes</a></li>
+            <li class="header_nav_list_item"><a href="/retrouver" class="header_nav_list_item_link">Où nous retrouver ?</a></li>
+            <li class="header_nav_list_item"><a  href="/contact" class="header_nav_list_item_link">Contact</a></li>
         </ul>
-    </div>
-
-    <header class="header">
-        <nav class="header_nav">
-            <ul class="header_nav_list">
-                <li class="header_nav_list_item"><a href="/" class="header_nav_list_item_link">Acceuil</a></li>
-                <li class="header_nav_list_item"><a href="https://player.infomaniak.com?channel=72318&player=11865" class="header_nav_list_item_link">Direct</a></li>
-                <li class="header_nav_list_item"><a href="/bio" class="header_nav_list_item_link">Bio</a></li>
-                <li class="header_nav_list_item"><a href="/programmes" class="header_nav_list_item_link">Programmes</a></li>
-                <li class="header_nav_list_item"><a  href="/contact" class="header_nav_list_item_link">Contact</a></li>
-            </ul>
-            <img class="header_nav_logo" src="/img/vibes_tv_logo_light.png" alt="logo de vibesTv">
-            <div class="header_nav_mobile_button">
-                <span class="header_nav_mobile_button_row"></span>
-                <span class="header_nav_mobile_button_row"></span>
-                <span class="header_nav_mobile_button_row"></span>
-            </div>
-        </nav>
-    </header>
+        <img class="header_nav_logo" src="/img/vibes_tv_logo_light.png" alt="logo de vibesTv">
+        <div class="header_nav_mobile_button">
+            <span class="header_nav_mobile_button_row"></span>
+            <span class="header_nav_mobile_button_row"></span>
+            <span class="header_nav_mobile_button_row"></span>
+        </div>
+    </nav>
+</header>
 
     <main class="main">
-        <section class="carousel">
-            <div class="carousel_slider">
-              <div class="content_inner_slider">
-                <img src="/img/slide_a.png" alt="" class="img">
-                <video class="video" src="/img/jungle.mp4" autoplay muted loop></video>
-                <video class="video" src="/img/slogan.mp4" autoplay muted loop></video>
-                <img src="/img/chanel.png" alt="" class="img">
-                <img src="https://images.unsplash.com/photo-1459909633680-206dc5c67abb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=30" alt="" class="img">
-                <img src="https://images.unsplash.com/photo-1459909633680-206dc5c67abb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=30" alt="" class="img">
+      <div class="container_video">
+        <div class="container_video_player">
+          <video class="container_video_player_own" src="/img/jungle.mp4" controls ></video>
+        </div>
+      </div>
 
-              </div>
-              <button class="prev_button">
-                <ion-icon name="chevron-back-outline"></ion-icon>
-              </button>
-              <button class="next_button">
-                <ion-icon name="chevron-forward-outline"></ion-icon>
-              </button>
-            </div>
-            <ul class="dots">
-              <li class="dot" value="0"></li>
-              <li class="dot" value="1"></li>
-              <li class="dot" value="2"></li>
-              <li class="dot" value="3"></li>
-              <li class="dot" value="4"></li>
-            </ul>
-            <div class="form">
-              <input type="checkbox" class="auto_slide" id="slide">
-              <label for="slide">Auto Slide</label>
-            </div>
-        </section>
+      <div class="container_txt">
+        <div class="container_txt_first">          
+          <h1>CHAINE DE TV</h1>
+          <h2>FREEBOX CANAL 298</h2>
+        </div>
+
+        <div class="container_txt_second">
+          <h3>MUSIQUE ET CULTURE</h3>
+          <h4>URBAINE ET FRANCOPHONE</h4>
+        </div>
+
+      </div>
     </main>
     <script src="/js/carousel.js"></script>
     <script src="/js/header.js"></script>

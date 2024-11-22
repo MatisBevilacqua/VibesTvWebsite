@@ -2,25 +2,75 @@
     --font-title: 60px;
     --font-title-second: 40px;
     --font-title-second-mobile: 30px;
-    --font-txt: 17px;
+    --font-txt: 25px; 
     --bg-red: #871910;
+    --blue-color: #8cc4ff; 
+    --white-color: #ffffff; 
+}
+
+body{
+    height: auto;
 }
 
 /* BIO */ 
 
-.main{
-    background: url('../img/bio.png');
-    height: 100vh;
-    background-position: center;
-    background-size: cover;
-    padding: 10vh 20px 20vh 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 20px;
+.main {
+    padding: 20px;
 }
 
-.main_sub{
-    color: white;
-    font-size: 25px;
+.bio-section {
+    padding: 30px;
+}
+
+.bio-container h1 {
+    color: #db124c;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.bio-container p {
+    color: #ffffff;
+    font-size: var(--font-txt); 
+    line-height: 1.8; 
+    margin-bottom: 25px; 
+}
+
+.bio-container p.white-text {
+    color: var(--white-color);
+}
+
+.bio-container p.blue-text {
+    color: var(--blue-color);
+}
+
+.bio-container p.align-left {
+    text-align: left;
+}
+
+.bio-container p.align-right {
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+    .header_nav_list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header_nav_list_item {
+        margin-bottom: 10px;
+    }
+
+    .bio-container {
+        padding: 15px;
+    }
+
+    .bio-container h1 {
+        font-size: 1.5rem;
+    }
+
+    .bio-container p {
+        font-size: 1.2rem; /* Réduction de la taille pour mobile */
+    }
 }

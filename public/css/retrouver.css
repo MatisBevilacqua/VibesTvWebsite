@@ -1,0 +1,122 @@
+:root {
+    --font-txt: 1.5rem;
+    --font-sub: 2rem;
+    --font-header: 2rem;
+    --primary-color: #000000; 
+    --text-color: white; 
+    --background-color: #f4f4f4;
+}
+
+body {
+    height: auto;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: var(--text-color);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    text-align: center;
+    background-color: transparent; 
+}
+
+.img{
+    width: 170px;
+}
+
+.where-to-find {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    gap: 3vh;
+}
+
+h1.main_txt {
+    font-size: var(--font-header);
+    font-style: italic;
+    color: var(--primary-color);
+}
+
+.platform {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    border: 5px solid #ffffff;
+}
+
+.ltl{
+    width: 90px;
+}
+
+.platform h2.main_contact_wrapper_sub {
+    font-size: var(--font-sub);
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.platform p {
+    font-size: var(--font-txt);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+a.main_txt_email {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+a.main_txt_email:hover {
+    color: darken(var(--primary-color), 10%);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .main {
+        height: 100vh;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .where-to-find {
+        gap: 3vh;
+    }
+
+    h1.main_txt {
+        font-size: 1.8rem;
+    }
+
+    .platform {
+        padding: 15px;
+    }
+
+    .platform h2.main_contact_wrapper_sub {
+        font-size: 1.1rem;
+    }
+
+    .platform p {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1.main_txt {
+        font-size: 1.5rem;
+    }
+
+    .platform h2.main_contact_wrapper_sub {
+        font-size: 1rem;
+    }
+
+    .platform p {
+        font-size: 1.1rem;
+    }
+
+    .main {
+        padding: 10px;
+    }
+}

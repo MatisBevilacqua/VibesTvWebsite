@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VibesTv</title>
-    <link rel="stylesheet" href="/css/contact.css">
     <link rel="stylesheet" href="/css/style.css">   
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="icon" type="image/png" href="/img/vibes_tv_logo_light.png"/>
 </head>
 
 <body>
@@ -17,6 +18,7 @@
             <li class="header_nav_mobile_list_item"><a  href="https://player.infomaniak.com?channel=72318&player=11865"  class="header_nav_mobile_list_item_link">Direct</a></li>
             <li class="header_nav_mobile_list_item"><a href="/bio" class="header_nav_mobile_list_item_link">Bio</a></li>
             <li class="header_nav_mobile_list_item"><a  href="/programmes" class="header_nav_mobile_list_item_link">Programmes</a></li>
+            <li class="header_nav_mobile_list_item"><a  href="/retrouver" class="header_nav_mobile_list_item_link">Où nous retrouver ?</a></li>
             <li class="header_nav_mobile_list_item"><a  href="/contact" class="header_nav_mobile_list_item_link">Contact</a></li>
         </ul>
     </div>
@@ -28,6 +30,7 @@
                 <li class="header_nav_list_item"><a href="https://player.infomaniak.com?channel=72318&player=11865" class="header_nav_list_item_link">Direct</a></li>
                 <li class="header_nav_list_item"><a href="/bio" class="header_nav_list_item_link">Bio</a></li>
                 <li class="header_nav_list_item"><a href="/programmes" class="header_nav_list_item_link">Programmes</a></li>
+                <li class="header_nav_list_item"><a href="/retrouver" class="header_nav_list_item_link">Où nous retrouver ?</a></li>
                 <li class="header_nav_list_item"><a  href="/contact" class="header_nav_list_item_link">Contact</a></li>
             </ul>
             <img class="header_nav_logo" src="/img/vibes_tv_logo_light.png" alt="logo de vibesTv">
@@ -41,21 +44,33 @@
 
     <main class="main">
 
-        <p class="main_txt">
-            Envie de partager votre dernier clip de rap avec nous ? Nous sommes impatients de découvrir votre talent ! Envoyez-nous le lien de votre vidéo à <a class="main_txt_email" href="mailto:commission.clips@vibestv.fr">commission.clips@vibestv.fr</a>
-        </p>
+        <div class="main_wrapper">
+            <!-- Partie gauche : Image -->
+            <div class="main_image">
+                <p class="main_txt">
+                    Envie de partager votre dernier clip de rap avec nous ? Nous sommes impatients de découvrir votre talent ! Envoyez-nous le lien de votre vidéo à 
+                    <a class="main_txt_email" href="mailto:commission.clips@vibestv.fr">commission.clips@vibestv.fr</a>
+                </p>
+            </div>
 
-        <div class="main_contact_wrapper">
-            <a class="main_contact_wrapper_link"  href="https://www.tiktok.com/@vibes.tv.officiel">
-                <img src="/img/tiktok.png" alt="logo de TikTok" class="main_contact_wrapper_img" />
-                <p class="main_contact_wrapper_sub">@vibes.tv.officiel</p>
-            </a>
-            <a class="main_contact_wrapper_link" href="https://www.instagram.com/vibes.tv.officiel/">
-                <img src="/img/insta.png" alt="logo d'Instagram" class="main_contact_wrapper_img" />
-                <p class="main_contact_wrapper_sub">@vibes.tv.officiel</p>
-            </a>
-        </div>      
+            <div class="main_contact">
+                <div class="main_contact_wrapper">
+                    <a class="main_contact_wrapper_link" href="https://www.tiktok.com/@vibes.tv.officiel">
+                        <img src="/img/tiktok.png" alt="Logo de TikTok" class="main_contact_wrapper_img" />
+                        <p class="main_contact_wrapper_sub">@vibes.tv.officiel</p>
+                    </a>
+                    <a class="main_contact_wrapper_link" href="https://www.instagram.com/vibes.tv.officiel/">
+                        <img src="/img/insta.png" alt="Logo d'Instagram" class="main_contact_wrapper_img" />
+                        <p class="main_contact_wrapper_sub">@vibes.tv.officiel</p>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    
     </main>
+    
+    
     <script src="/js/header.js"></script>
 </body>
 

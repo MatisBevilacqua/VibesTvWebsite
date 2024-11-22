@@ -21,6 +21,10 @@ app.get('/staff', (req, res) => {
   res.sendFile(path.join(__dirname, './views/staff.html'));
 });
 
+app.get('/retrouver', (req, res) => {
+  res.sendFile(path.join(__dirname, './views/retrouver.html'));
+});
+
 app.get('/contact', (req, res) => {
   res.sendFile(path.join(__dirname, './views/contact.html'));
 });
