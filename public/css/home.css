@@ -11,6 +11,10 @@
     --bg-red: #871910;
 }
 
+body{
+    height: auto;
+}
+
 .main {
     display: flex;
     padding: 0 20px;
