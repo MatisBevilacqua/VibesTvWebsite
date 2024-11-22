@@ -92,8 +92,9 @@ body{
 }
 
 .main_contact_wrapper_sub {
-  font-size: var(--font-sub);
+  font-size: 25px;
   font-weight: bold;
+  color: white;
 }
 
 .main_app_info {
